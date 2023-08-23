@@ -1,0 +1,40 @@
+.container{
+  /* width: 100vw; */
+  /* height: 100vh; */
+  padding: 1em;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: bolder;
+  gap: 1em;
+}
+
+strong{
+  font-size: 2em;
+  color:red
+}
+img{
+  border:1px solid wheat;
+  border-radius: 50px;
+}
+body{
+  background-color: black;
+  color:wheat;
+  
+}
+
+li,ul{
+  
+  display:flex;
+  justify-content:space-between ;
+  align-items: center;
+  text-decoration: none;
+
+
+}
+a{
+  margin: 10px;
+  
+}
